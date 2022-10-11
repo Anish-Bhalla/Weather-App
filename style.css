@@ -13,11 +13,10 @@ body{
 }
 #box{
     border: solid black 2px;
-    margin: auto;
-    height: 95vh;
+    height: auto;
     width: 600px;
     display: grid;
-    grid-template-rows: 40% 40% 20%;
+    grid-template-rows: repeat(3,auto);
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "main main"
     "hourly hourly"
