@@ -32,11 +32,14 @@ body{
     text-align: center;
 }
 .hourly{
+    grid-auto-flow: row;
+    max-height: 300px;
     grid-area: hourly;
     border: solid 1px;
     justify-self: stretch;
     margin: 30px;
     text-align: center;
+    overflow: scroll;
 }
 .t_max,.t_min{
     font-size: large;
